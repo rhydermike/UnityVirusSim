@@ -53,7 +53,7 @@ public class Movement : MonoBehaviour
 
     public GameObject go;
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other) // change to OnCollisionEnter
     {
         SceneVars sv = go.GetComponent<SceneVars>();
         ChangeDirection = true;

@@ -575,7 +575,7 @@ MonoBehaviour:
   yOrigin: 0
   Continuous: 0
   PCInfected: 20
-  ImmunityPeriod: 1000
+  ImmunityPeriod: 14
   RecoveryPeriod: 14
   InfectiousPeriod: 14
   InfectionProb: 30
@@ -585,12 +585,12 @@ MonoBehaviour:
   PCDelayedReinfect: 0
   LockdownOnLevel: 0
   LockDownLevel: 30
-  PCSelfIsolating: 70
-  SelfIsolationLength: 1000
+  PCSelfIsolating: 50
+  SelfIsolationLength: 7
   SelfIsolationTimes: 200
   SelfIsolationBreak: 7
   SelfIsolationDelay: 0
-  PCMasks: 0
+  PCMasks: 30
   PCMaskInfect: 20
   PCMaskTransmit: 50
   PCSD: 0
